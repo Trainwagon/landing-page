@@ -71,9 +71,6 @@ body {
 .img div {
   color: #f9faf8;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .sign-up {
