@@ -116,7 +116,7 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
-  padding: 10px 84px;
+  padding: 80px 278px;
 }
 
 .quote p {
@@ -132,6 +132,10 @@ h2 {
   font-style: italic;
   font-weight: bold;
   text-align: end;
+}
+
+.action {
+  margin: 40px 80px;
 }
 
 .container-action {
