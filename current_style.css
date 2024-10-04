@@ -52,7 +52,7 @@ body {
 .puki {
   /* border: solid palegoldenrod; */
   width: 700px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; /* Adjust this for the space you want */
 }
 
 .img {
@@ -62,17 +62,18 @@ body {
   flex: 1;
   flex-shrink: 0;
   border-radius: 16px;
-  /* forgor to add these */
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin: 40px 84px;
-  /* ------------------ */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add some padding for extra gap inside */
+  margin: 40px 84px; /* Adds gap outside the div */
 }
 
 .img div {
   color: #f9faf8;
   display: flex;
+  flex-direction: column; /* not needed*/
+  justify-content: center; /* not needed*/
+  align-items: center; /* not needed*/
 }
 
 .sign-up {
@@ -82,6 +83,7 @@ body {
   padding: 10px 24px;
   border-radius: 8px;
   border: none;
+  margin-bottom: 30px; /* Adjust this to your preference */
 }
 
 h2 {
@@ -90,23 +92,29 @@ h2 {
 
 .information {
   padding: 10px 84px;
+  /* border: solid black; */
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .infos {
   display: flex;
   flex-wrap: wrap;
-  /* border: solid black; */
   gap: 20px;
 }
+.subtext-info {
+  flex-basis: 200px; /* Adjust this to be large enough for text */
+  flex-grow: 1; /* Let the container grow with content */
+}
 .biggie {
-  border: solid black;
+  border: 5px solid #3882f6;
   display: flex;
   width: 100%;
-  height: 50%; /*this is the issue with the old one */
+  height: 200px; /* Set a fixed height or allow the height to grow */
+  flex-grow: 1; /* Allows the div to grow based on content */
+  border-radius: 16px;
 }
+
 .quote {
   display: flex;
   flex-direction: column;
@@ -128,6 +136,7 @@ h2 {
   font-weight: bold;
   text-align: end;
 }
+
 .container-action {
   border-radius: 8px;
   padding: 40px;

@@ -1,2 +1,3 @@
 # landing-page
-odin project
+
+odin project this is my attempt to build this landing page
