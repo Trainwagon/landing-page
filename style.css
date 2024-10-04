@@ -1,0 +1,181 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.footer,
+.hero-title,
+.subtext,
+.action,
+.sign-up {
+  color: #f9faf8;
+  padding: 10px 84px;
+}
+
+.header {
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 84px;
+  margin: 0;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  background: #1f2937;
+  /* border: solid paleturquoise; */
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subtext {
+  color: #e5e7eb;
+  margin: 0;
+  gap: 0;
+}
+
+.puki {
+  /* border: solid palegoldenrod; */
+  width: 700px;
+  padding-bottom: 20px; /* Adjust this for the space you want */
+}
+
+.img {
+  display: flex;
+  background-color: #89909b98;
+  margin-right: 64px;
+  flex: 1;
+  flex-shrink: 0;
+  border-radius: 16px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add some padding for extra gap inside */
+  margin: 40px 84px; /* Adds gap outside the div */
+}
+
+.img div {
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  font-family: Roboto, sans-serif;
+  margin-left: 84px;
+  background-color: #3882f6;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 30px; /* Adjust this to your preference */
+}
+
+h2 {
+  text-align: center;
+}
+
+.information {
+  padding: 10px 84px;
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.subtext-info {
+  flex-basis: 200px; /* Adjust this to be large enough for text */
+  flex-grow: 1; /* Let the container grow with content */
+}
+.biggie {
+  border: 5px solid #3882f6;
+  display: flex;
+  width: 100%;
+  height: 200px; /* Set a fixed height or allow the height to grow */
+  flex-grow: 1; /* Allows the div to grow based on content */
+  border-radius: 16px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 10px 84px;
+}
+
+.quote p {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote div {
+  color: #1f2937;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: end;
+}
+
+.container-action {
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+  background: #3882f6;
+}
+
+.action-sign {
+  color: #f9faf8;
+  border: 2px solid white;
+  font-family: Roboto, sans-serif;
+  background-color: #3882f6;
+  padding: 0 48px;
+  border-radius: 8px;
+}
+
+.text-action {
+  font-weight: bold;
+  font-size: larger;
+  margin: 0;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+}
